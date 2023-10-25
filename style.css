@@ -4,6 +4,8 @@ body{
   height: 100vh;
   display: flex;
     background: #ffffff;
+  justify-content: center;
+  align-items: center;
 }
 .glassmorphism {
     position: relative;
@@ -531,40 +533,34 @@ body{
     filter: blur(34px);
   }
 
-    .slider{
-     width: 1200px;
-     height: 500px; 
-     border-radius: 10px;  
-     overflow: hidden;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    }
+  .slider {
+    width: 1700px;
+    height: 900px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
 
-    .slides{
-        width: 500%;
-        height: 500px;
-        display: flex;
-        text-align: center;
-    }
-
-    .slides input{
-        display: none;
-    }
-
-    .slide{
-      display: flex;
-      width: 20%;
-      transition: 2s;
-      display: flex;
+  .slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
 }
 
-    .slide img{
-     width: 800px;
-     height: 500px;   
+  .slides input{
+    display: none;
 }
-    
+
+  .slide {
+    width: 20%;
+    transition: 2s;
+}
+
+  .slide-image {
+    width: 800px;
+    height: 500px;
+    margin-top: 10%;
+    transform: translateX(90%);
+}
 
     .navigation-manual {
       display: flex;
@@ -573,7 +569,7 @@ body{
       bottom: 20px; /* ปรับตำแหน่งด้านล่างตามที่คุณต้องการ */
       left: 70%; /* คำสั่งนี้จะจัดให้ navigation-manual อยู่ตรงกลางตามแนวนอน */
       transform: translateX(-50%); /* จัดให้ navigation-manual อยู่ตรงกลางตามแนวนอน */
-        z-index: 1; /* เพิ่ม z-index เพื่อให้ปุ่มนำหน้าอยู่ด้านบน */
+      z-index: 1; /* เพิ่ม z-index เพื่อให้ปุ่มนำหน้าอยู่ด้านบน */
     }
     
     .manual-btn {
