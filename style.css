@@ -1,12 +1,21 @@
-body{
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-    background: #ffffff;
-  justify-content: center;
-  align-items: center;
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #ffffff;
+  width: 100vw; /* 100% ของความกว้างของเบราวเซอร์ */
+  height: 100vh; /* 100% ของความสูงของเบราวเซอร์ */
 }
+
+.logo-followup {
+  width: 200px; /* ปรับความกว้างของรูปเป็น 200 พิกเซล */
+  height: auto; /* รักษาอัตราส่วนเมื่อปรับขนาด */
+  position: absolute; /* ให้รูปเป็นโหมด absolute positioning */
+  top: 90px; /* ปรับตำแหน่งด้านบน 20 พิกเซล */
+  left: 130px; /* ปรับตำแหน่งด้านซ้าย 20 พิกเซล */
+  z-index: 1; /* กำหนดค่า z-index เป็น 1 เพื่อให้รูปอยู่ด้านบนของข้อความ "Follow Up" */
+}
+
 .glassmorphism {
     position: relative;
     width: 1920px;
@@ -556,10 +565,10 @@ body{
 }
 
   .slide-image {
-    width: 800px;
-    height: 500px;
-    margin-top: 10%;
-    transform: translateX(90%);
+    width: 1000px;
+    height: 550px;
+    margin-top: 9.5%;
+    transform: translateX(25%);
 }
 
     .navigation-manual {
@@ -639,4 +648,3 @@ body{
     #radio4:checked ~ .navigation-auto .auto-btn4{
         background: #696969;
     }
-  
