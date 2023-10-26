@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=">
   <title>Responsive Contact Us Page</title>
   <script src="https://kit.fontawesome.com/c32adfdcda.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
   <section>
-    
+  <a href="../index.html" class="back-to-home">Back to Home</a>
     <div class="section-header">
       <div class="container">
         <h2>Contact Us</h2>
@@ -50,34 +49,35 @@
             
             <div class="contact-info-content">
               <h4>Email</h4>
-              <p>example@email.com</p>
+             <p>example@email.com</p>
             </div>
           </div>
         </div>
         
         <div class="contact-form">
-          <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+          <form action="" id="contact-form">
             <h2>Send Message</h2>
             <div class="input-box">
-              <input type="text" required name="name">
+              <input type="text" required="true" name="">
               <span>Full Name</span>
             </div>
             
             <div class="input-box">
-              <input type="email" required name="email">
+              <input type="email" required="true" name="">
               <span>Email</span>
             </div>
             
             <div class="input-box">
-              <textarea required name="message"></textarea>
+              <textarea required="true" name=""></textarea>
               <span>Type your Message...</span>
             </div>
             
             <div class="input-box">
-              <input type="submit" value="Send" name="send">
+              <input type="submit" value="Send" name="">
             </div>
           </form>
         </div>
+        
       </div>
     </div>
   </section>

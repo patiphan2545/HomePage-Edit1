@@ -15,7 +15,7 @@
 <div class="flex-container">
     <a href="help.php"><div class="frame-8"><div class="text-wrapper-4">Help</div></div></a>
     <div class="frame-9">
-    <a href="contact.html"><div class="text-wrapper-6">Contact</div></a>
+    <a href="../Contact/contact.php"><div class="text-wrapper-6">Contact</div></a>
 </div>
 <div class="icon-font-awesome">
 <a href="../index.html"><img class="vector" src="img/home.png" /></a>
